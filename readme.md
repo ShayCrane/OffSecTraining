@@ -1,4 +1,4 @@
-### Python Scripting Excersizes 
+### OffSec Training Notes 
 
 *These documents and scripts are  based on exercises and labs from* **offsec.com** 
 
