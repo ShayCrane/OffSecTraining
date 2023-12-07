@@ -62,19 +62,29 @@ The attacker leverages port scanners (like nmap) as an information gathering too
 -----------
 </br>
 
-### *```(This section is a working draft)```* 
+
 
 #### <span style="text-decoration: underline">Targeted Attacks</span>:
 
 ##### Initial Access
-Social engineering, often in tandem with spear phishing. 
+The beginning of most targeted attacks, often leveraging Social engineering or spear phishing as the vector. 
+
+</br>
 
 ##### C2 and Persistence
-Command and Control. 
+Command and Control. A covert communication channel is established between attack machine and target in order to remotely manipulate target devices and maintain persistance. 
 
+</br>
 
 ##### Lateral Movement
-Often targets Active Directory. 
+Techniques used by attackers to enable their movement horizontally across a network, its systems and devices from the point of entry.  From here the attacker can escalate priveleges in order to gain access to sensitive information and resources.  Often targets Active Directory. 
+
+</br>
 
 ##### Domain Persistence
-The attacker gains the ability to impersonate any user without modifying password, minimizing detection. 
+The attack is enabled once lateral movement has been established and privileges escalated, the attacker uses their elevated access to gain persistence in the network, maintaining control over valuable systems and data. 
+
+---------
+</br>
+
+*End of document.* 
